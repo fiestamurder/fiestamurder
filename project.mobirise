@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Hasta que tu muerte nos separe",
-    "currentPage": "index.html",
+    "currentPage": "page1.html",
     "theme": {
       "name": "startm5",
       "title": "StartM5",
@@ -56,7 +56,7 @@
         "url": "https://fonts.googleapis.com/css?family=Barlow:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
       }
     ],
-    "uniqCompNum": 60,
+    "uniqCompNum": 63,
     "versionPublish": "6.1.4",
     "imageResize": false,
     "screenshot": "screenshot.png",
@@ -2138,7 +2138,7 @@
           },
           "_name": "menu06",
           "_sourceTheme": "startm5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"menu menu6\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\t<mbr-parameters>\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Logo\" name=\"showLogo\">\n\t\t<input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"1\" max=\"5\" step=\"0.1\" value=\"3\" condition=\"showLogo\">\n\t\t<input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\" checked>\n\t\t<input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked>\n\t\t<select title=\"Menu Items Align\" name=\"contentAlign\" condition=\"showItems\">\n\t\t\t<option value=\"1\">Left</option>\n\t\t\t<option value=\"2\">Center</option>\n\t\t\t<option value=\"3\" selected>Right</option>\n\t\t</select>\n\t\t<input type=\"checkbox\" title=\"Icons\" name=\"showIcons\">\n\t\t<select title=\"Amount\" name=\"iconsAmount\" condition=\"showIcons\">\n\t\t\t<option value=\"1\">1</option>\n\t\t\t<option value=\"2\">2</option>\n\t\t\t<option value=\"3\" selected>3</option>\n\t\t\t<option value=\"4\">4</option>\n\t\t</select>\n\t\t<input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#000000\" condition=\"showIcons\">\n\t\t<input type=\"checkbox\" title=\"Button\" name=\"showButtons\">\n\t\t<header>Styles</header>\n\t\t<input type=\"checkbox\" title=\"Background on scroll\" name=\"opacityScroll\" condition=\"!transparent\">\n\t\t<input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\" condition=\"none\">\n\t\t<input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" condition=\"!opacityScroll\" checked>\n\t\t<input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n\t\t<input type=\"range\" title=\"Opacity\" name=\"opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"transparent\">\n\t\t<input type=\"color\" title=\"Color\" name=\"menuBgColor\" value=\"#232323\">\n\t\t<input type=\"color\" title=\"Hamburger\" name=\"hamburgerColor\" value=\"#000000\">\n\t</mbr-parameters>\n\n\t<nav class=\"navbar navbar-dropdown\" mbr-class=\"\n\t\t\t\t\t[\n\t\t\t\t\t{'opacityScrollOff': !opacityScroll, 'opacityScroll': opacityScroll}, \n\t\t\t\t\t{'navbar-fixed-top':sticky,'navbar-expand-lg':!collapsed,'collapsed':collapsed}\n\t\t\t\t\t]\">\n\t\t<div class=\"container\">\n\t\t\t<div class=\"navbar-brand\">\n\t\t\t\t<span mbr-if=\"showLogo\" class=\"navbar-logo\">\n\t\t\t\t\t<a href=\"https://mobiri.se\">\n\t\t\t\t\t\t<img src=\"../_images/logo.png\" alt=\"Mobirise Website Builder\" mbr-style=\"{'height': logoSize + 'rem'}\">\n\t\t\t\t\t</a>\n\t\t\t\t</span>\n\t\t\t\t<span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-iconFont\"><a class=\"navbar-caption text-white text-primary\" data-app-selector=\".navbar-caption\" data-app-placeholder=\"Type Text\">HASTA QUE TU MUERTE NOS SEPARE | Murder Mystery Party</a></span>\n\t\t\t</div>\n\t\t\t<button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems || showIcons || showButtons\">\n\t\t\t\t<div class=\"hamburger\">\n\t\t\t\t\t<span></span>\n\t\t\t\t\t<span></span>\n\t\t\t\t\t<span></span>\n\t\t\t\t\t<span></span>\n\t\t\t\t</div>\n\t\t\t</button>\n\t\t\t<div class=\"collapse navbar-collapse\" mbr-class=\"{'opacityScrollOff': !opacityScroll, 'opacityScroll': opacityScroll}\" id=\"navbarSupportedContent\" mbr-if=\"showItems || showIcons || showButtons\">\n\t\t\t\t<ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-7\" mbr-if=\"showItems\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item dropdown open\">\n\t\t\t\t\t\t<a class=\"nav-link link dropdown-toggle text-warning show\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" data-bs-toggle=\"dropdown\" data-bs-auto-close=\"outside\" aria-expanded=\"true\"><span class=\"material material-home mbr-iconfont mbr-iconfont-btn\"></span>Menú</a><div class=\"dropdown-menu show\" aria-labelledby=\"dropdown-449\" data-bs-popper=\"none\"><a class=\"dropdown-item text-warning text-primary\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Página de Inicio</a><a class=\"dropdown-item text-warning text-primary\" href=\"page2.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Los Personajes</a><a class=\"dropdown-item text-warning text-primary\" href=\"index.html#article15-2\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">La Historia</a><a class=\"dropdown-item text-warning text-primary\" href=\"index.html#article13-5\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">El Juego</a><a class=\"dropdown-item text-warning text-primary\" href=\"page1.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">¿Es gratis? y FAQ</a></div>\n\t\t\t\t\t</li></ul>\n\t\t\t\t<div class=\"icons-menu\" mbr-if=\"showIcons\">\n\t\t\t\t\t<a class=\"iconfont-wrapper\" href=\"https://mobiri.se\">\n\t\t\t\t\t\t<span mbr-icon class=\"p-2 mbr-iconfont mobi-mbri-phone mobi-mbri\"></span>\n\t\t\t\t\t</a>\n\t\t\t\t\t<a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" mbr-if=\"iconsAmount > 1\">\n\t\t\t\t\t\t<span mbr-icon class=\"p-2 mbr-iconfont mobi-mbri-letter mobi-mbri\"></span>\n\t\t\t\t\t</a>\n\t\t\t\t\t<a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" mbr-if=\"iconsAmount > 2\">\n\t\t\t\t\t\t<span mbr-icon class=\"p-2 mbr-iconfont mobi-mbri-map-pin mobi-mbri\"></span>\n\t\t\t\t\t</a>\n\t\t\t\t\t<a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" mbr-if=\"iconsAmount > 3\">\n\t\t\t\t\t\t<span mbr-icon class=\"p-2 mbr-iconfont mobi-mbri-shopping-cart mobi-mbri\"></span>\n\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t\t<div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-warning\" href=\"index.html#image04-3\" data-app-placeholder=\"Type Text\">INICIO</a></div>\n\t\t\t</div>\n\t\t</div>\n\t</nav>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"menu menu6\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\t<mbr-parameters>\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Logo\" name=\"showLogo\">\n\t\t<input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"1\" max=\"5\" step=\"0.1\" value=\"3\" condition=\"showLogo\">\n\t\t<input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\" checked>\n\t\t<input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked>\n\t\t<select title=\"Menu Items Align\" name=\"contentAlign\" condition=\"showItems\">\n\t\t\t<option value=\"1\">Left</option>\n\t\t\t<option value=\"2\">Center</option>\n\t\t\t<option value=\"3\" selected>Right</option>\n\t\t</select>\n\t\t<input type=\"checkbox\" title=\"Icons\" name=\"showIcons\">\n\t\t<select title=\"Amount\" name=\"iconsAmount\" condition=\"showIcons\">\n\t\t\t<option value=\"1\">1</option>\n\t\t\t<option value=\"2\">2</option>\n\t\t\t<option value=\"3\" selected>3</option>\n\t\t\t<option value=\"4\">4</option>\n\t\t</select>\n\t\t<input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#000000\" condition=\"showIcons\">\n\t\t<input type=\"checkbox\" title=\"Button\" name=\"showButtons\">\n\t\t<header>Styles</header>\n\t\t<input type=\"checkbox\" title=\"Background on scroll\" name=\"opacityScroll\" condition=\"!transparent\">\n\t\t<input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\" condition=\"none\">\n\t\t<input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" condition=\"!opacityScroll\" checked>\n\t\t<input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n\t\t<input type=\"range\" title=\"Opacity\" name=\"opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"transparent\">\n\t\t<input type=\"color\" title=\"Color\" name=\"menuBgColor\" value=\"#232323\">\n\t\t<input type=\"color\" title=\"Hamburger\" name=\"hamburgerColor\" value=\"#000000\">\n\t</mbr-parameters>\n\n\t<nav class=\"navbar navbar-dropdown\" mbr-class=\"\n\t\t\t\t\t[\n\t\t\t\t\t{'opacityScrollOff': !opacityScroll, 'opacityScroll': opacityScroll}, \n\t\t\t\t\t{'navbar-fixed-top':sticky,'navbar-expand-lg':!collapsed,'collapsed':collapsed}\n\t\t\t\t\t]\">\n\t\t<div class=\"container\">\n\t\t\t<div class=\"navbar-brand\">\n\t\t\t\t<span mbr-if=\"showLogo\" class=\"navbar-logo\">\n\t\t\t\t\t<a href=\"https://mobiri.se\">\n\t\t\t\t\t\t<img src=\"../_images/logo.png\" alt=\"Mobirise Website Builder\" mbr-style=\"{'height': logoSize + 'rem'}\">\n\t\t\t\t\t</a>\n\t\t\t\t</span>\n\t\t\t\t<span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-iconFont\"><a class=\"navbar-caption text-white text-primary\" data-app-selector=\".navbar-caption\" data-app-placeholder=\"Type Text\">HASTA QUE TU MUERTE NOS SEPARE | Murder Mystery Party</a></span>\n\t\t\t</div>\n\t\t\t<button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems || showIcons || showButtons\">\n\t\t\t\t<div class=\"hamburger\">\n\t\t\t\t\t<span></span>\n\t\t\t\t\t<span></span>\n\t\t\t\t\t<span></span>\n\t\t\t\t\t<span></span>\n\t\t\t\t</div>\n\t\t\t</button>\n\t\t\t<div class=\"collapse navbar-collapse\" mbr-class=\"{'opacityScrollOff': !opacityScroll, 'opacityScroll': opacityScroll}\" id=\"navbarSupportedContent\" mbr-if=\"showItems || showIcons || showButtons\">\n\t\t\t\t<ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-7\" mbr-if=\"showItems\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item dropdown\">\n\t\t\t\t\t\t<a class=\"nav-link link dropdown-toggle text-warning show\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" data-bs-toggle=\"dropdown\" data-bs-auto-close=\"outside\" aria-expanded=\"true\"><span class=\"material material-home mbr-iconfont mbr-iconfont-btn\"></span>Menú</a><div class=\"dropdown-menu show\" aria-labelledby=\"dropdown-449\" data-bs-popper=\"none\"><a class=\"dropdown-item text-warning text-primary\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Página de Inicio</a><a class=\"dropdown-item text-warning text-primary\" href=\"page2.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Los Personajes</a><a class=\"dropdown-item text-warning text-primary\" href=\"index.html#article15-2\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">La Historia</a><a class=\"dropdown-item text-warning text-primary\" href=\"index.html#article13-5\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">El Juego</a><a class=\"dropdown-item text-warning text-primary\" href=\"page1.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">¿Es gratis? y FAQ</a></div>\n\t\t\t\t\t</li></ul>\n\t\t\t\t<div class=\"icons-menu\" mbr-if=\"showIcons\">\n\t\t\t\t\t<a class=\"iconfont-wrapper\" href=\"https://mobiri.se\">\n\t\t\t\t\t\t<span mbr-icon class=\"p-2 mbr-iconfont mobi-mbri-phone mobi-mbri\"></span>\n\t\t\t\t\t</a>\n\t\t\t\t\t<a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" mbr-if=\"iconsAmount > 1\">\n\t\t\t\t\t\t<span mbr-icon class=\"p-2 mbr-iconfont mobi-mbri-letter mobi-mbri\"></span>\n\t\t\t\t\t</a>\n\t\t\t\t\t<a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" mbr-if=\"iconsAmount > 2\">\n\t\t\t\t\t\t<span mbr-icon class=\"p-2 mbr-iconfont mobi-mbri-map-pin mobi-mbri\"></span>\n\t\t\t\t\t</a>\n\t\t\t\t\t<a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" mbr-if=\"iconsAmount > 3\">\n\t\t\t\t\t\t<span mbr-icon class=\"p-2 mbr-iconfont mobi-mbri-shopping-cart mobi-mbri\"></span>\n\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t\t<div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-warning\" href=\"index.html#image04-3\" data-app-placeholder=\"Type Text\">INICIO</a></div>\n\t\t\t</div>\n\t\t</div>\n\t</nav>\n</section>",
           "_cid": "v1AYTOI1tU",
           "_anchor": "menu06-s",
           "_protectedParams": [],
@@ -2263,113 +2263,6 @@
           "_styles": {
             "padding-top": "(@paddingTop * 1rem)",
             "padding-bottom": "(@paddingBottom * 1rem)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".mbr-media": {
-              "position": "relative",
-              "img": {
-                "width": "100%",
-                "object-fit": "cover"
-              }
-            },
-            "a": {
-              "&:hover": {
-                "background-image": "none !important"
-              }
-            },
-            ".icon-wrap": {
-              "left": "50%",
-              "top": "50%",
-              "transform": "translate(-50%, -50%)",
-              "position": "absolute"
-            },
-            ".mbr-media span": {
-              "font-size": "5rem",
-              "transition": "all 0.2s"
-            },
-            ".modalWindow": {
-              "position": "fixed",
-              "z-index": "5000",
-              "left": "0",
-              "top": "0",
-              "background-color": "rgba(61, 61, 61, 0.65)",
-              "width": "100%",
-              "height": "100%",
-              ".modalWindow-container": {
-                "display": "table-cell",
-                "vertical-align": "middle"
-              },
-              ".modalWindow-video": {
-                "height": "calc(80vw / 1.778)",
-                "width": "80vw",
-                "margin": "0 auto"
-              }
-            },
-            ".close": {
-              "position": "fixed",
-              "opacity": "0.5",
-              "font-size": "1.5rem",
-              "font-weight": "300",
-              "width": "60px",
-              "height": "60px",
-              "border-radius": "50%",
-              "color": "#fff",
-              "top": "2.5rem",
-              "right": "2.5rem",
-              "border": "2px solid #fff",
-              "text-shadow": "none",
-              "z-index": "5",
-              "transition": "opacity 0.3s ease",
-              "align-items": "center",
-              "justify-content": "center",
-              "display": "flex",
-              "&:hover": {
-                "opacity": "1",
-                "background": "#000",
-                "color": "#fff"
-              }
-            },
-            ".mbr-fallback-image.disabled": {
-              "display": "none"
-            },
-            ".mbr-fallback-image": {
-              "display": "block",
-              "background-size": "cover",
-              "background-position": "center center",
-              "width": "100%",
-              "height": "100%",
-              "position": "absolute",
-              "top": "0",
-              "& when (@bg-type = 'video')": {
-                "background-image": "url(@fallBackImage)"
-              }
-            },
-            ".content-head": {
-              "max-width": "800px"
-            },
-            ".mbr-section-title": {
-              "color": "#f7f7f7"
-            }
-          },
-          "_name": "video01",
-          "_sourceTheme": "startm5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"video01\" group=\"Image & Video\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"PlayerVimeo\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\t<mbr-parameters>\n\t\t<header>Size</header>\n\t\t<input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n\t\t<input type=\"range\" name=\"textWidth\" title=\"Video\" min=\"4\" max=\"12\" step=\"1\" value=\"12\">\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n\t\t<header>Video</header>\n\t\t<input type=\"text\" title=\"Link\" name=\"modalVideo\" value=\"https://youtu.be/s4pYDYsF39g\">\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input title=\"Image\" type=\"image\" value=\"../_images/background1.jpg\" parallax>\n\t\t\t<input title=\"Color\" type=\"color\" selected value=\"#232323\">\n\t\t\t<input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n\t\t</fieldset>\n\t\t<header condition=\"bg.type === 'video'\">Fallback Image</header>\n\t\t<input type=\"image\" title=\"Fallback Image\" value=\"../_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n\t</mbr-parameters>\n\t<div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"></div>\n\t<div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n\t\t<div class=\"row justify-content-center\">\n\t\t\t<div class=\"col-12 content-head\">\n\t\t\t\t<div class=\"mbr-section-head mb-5\">\n\t\t\t\t\t<h4 class=\"mbr-section-title mbr-fonts-style mb-0\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">\n\t\t\t\t\t\t<b>Esto es lo que pasa cuando una Murder pasa:</b></h4>\n\t\t\t\t\t<h5 class=\"mbr-section-subtitle mbr-fonts-style mb-0 mt-4\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\">\n\t\t\t\t\t\tClick on the video in this block to set the link to your own video.\n\t\t\t\t\t</h5>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\n\t\t<div class=\"row justify-content-center\">\n\t\t\t<div class=\"col-12 col-lg-{{textWidth}}\">\n\t\t\t\t<div class=\"box\">\n\t\t\t\t\t<div class=\"mbr-media show-modal align-center\" data-modal=\".modalWindow\">\n\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/img-20230528-wa0003.jpg\" alt>\n\t\t\t\t\t\t<div class=\"icon-wrap\">\n\t\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont socicon-youtube socicon\" style=\"color: rgb(255, 255, 255); fill: rgb(255, 255, 255);\"></span>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\t<div>\n\t\t<div class=\"modalWindow\" style=\"display: none\">\n\t\t\t<div class=\"modalWindow-container\">\n\t\t\t\t<div class=\"modalWindow-video-container\">\n\t\t\t\t\t<div class=\"modalWindow-video\">\n\t\t\t\t\t\t<iframe width=\"100%\" height=\"100%\" data-src=\"{{modalVideo}}\" frameborder=\"0\" allowfullscreen=\"1\"></iframe>\n\t\t\t\t\t</div>\n\t\t\t\t\t<a class=\"close\" role=\"button\" data-dismiss=\"modal\" data-bs-dismiss=\"modal\">\n\t\t\t\t\t\t<span aria-hidden=\"true\" class=\"mbr-iconfont mobi-mbri-close mobi-mbri closeModal\"></span>\n\t\t\t\t\t\t<span class=\"sr-only visually-hidden visually-hidden\">Close</span>\n\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
-          "_cid": "v1MJJwIrSF",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {},
-          "_anchor": "video01-1l"
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 1rem)",
-            "padding-bottom": "(@paddingBottom * 1rem)",
             "background-color": "@bgColor",
             ".mbr-text": {
               "color": "#edefeb"
@@ -2395,6 +2288,88 @@
         {
           "alias": false,
           "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#edefeb"
+            }
+          },
+          "_name": "article11",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"article11\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n       <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" step=\"1\" value=\"10\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#232323\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">        \n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\">\n    </div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"title col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center mt-0 mb-0\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-5\">\n                <b>Esto es lo que pasa mientras una Murder pasa:</b></h3>\n                <h4 class=\"mbr-section-subtitle align-center mbr-fonts-style mt-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\">\n                The everlasting charm of photographs\n                </h4>\n                <div class=\"mbr-section-btn align-center mt-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-secondary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n                        Learn more\n                    </a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "v1MOKxGMDY",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "article11-1q"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            ".content-text": {
+              "max-width": "800px"
+            }
+          },
+          "_name": "video02",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"video02\" group=\"Image & Video\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"PlayerVimeo\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n  <mbr-parameters>\n    <header>Size</header>\n    <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n    <input type=\"range\" name=\"videoWidth\" title=\"Video\" min=\"4\" max=\"12\" step=\"1\" value=\"10\">\n    <header>Show/Hide</header>\n    <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n    <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n    <header>Background</header>\n    <fieldset type=\"background\" name=\"bg\" parallax>\n      <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n      <input type=\"color\" title=\"Color\" value=\"#232323\" selected>\n      <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n    </fieldset>\n    <header condition=\"bg.type === 'video'\">Fallback Image</header>\n    <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n  </mbr-parameters>\n\n  <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n  <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"></div>\n\n  <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n    <div class=\"row justify-content-center\">\n      <div mbr-video class=\"mbr-figure col-12 mb-5 col-md-{{videoWidth}}\">\n        <iframe src=\"https://youtu.be/s4pYDYsF39g\"></iframe>\n      </div>\n    </div>\n    <div class=\"row justify-content-center\">\n      <div class=\"col-12 content-text\">\n        <h4 class=\"mbr-description mbr-fonts-style mb-3 align-center\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-description\">\n          <b>Small business, big dreams.</b>\n        </h4>\n        <p class=\"mbr-description mbr-fonts-style mb-0 align-center\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-description\">\n        Unleash your inner artist with our unique products.\n        </p>\n      </div>\n    </div>\n  </div>\n</section>",
+          "_cid": "v1MOyhUcVw",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "video02-1p"
+        },
+        {
+          "alias": false,
+          "_styles": {
             "padding-top": "(@paddingTop * 1rem)",
             "padding-bottom": "(@paddingBottom * 1rem)",
             "background-color": "@bgColor",
@@ -2405,12 +2380,12 @@
               "color": "#edefeb"
             },
             ".mbr-section-title": {
-              "color": "#000000"
+              "color": "#edefeb"
             }
           },
           "_name": "article12",
           "_sourceTheme": "startm5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"article12\" group=\"Article\">    \n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#232323\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4 mt-0\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                <b>Framing time</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\"><b>Cómo se arman</b></h4>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-4\">Organizar estos eventos lleva mucho tiempo y trabajo. Se suelen planear con <b>meses </b>de antelación. Ninguno de los que participamos en el armado de las Murder Party ganamos dinero por hacerlo. <b>Nada, ni un peso</b>. Se hace con mucho entusiasmo, ganas de divertirnos y dedicación.<br>\n<br>Alguien propone una idea, inicialmente muy en borrador, y le vamos dando forma. <i>Una boda de alta sociedad, donde todos se odian, pero fingen.</i> A partir de esa idea inicial empezamos a tejer la narrativa. Una o dos personas del equipo se encargan de escribir la historia por completo y conocen el final, los asesinos y todo lo que sucede. Esta no es una tarea menor: escribir la historia implica todo… quienes son los personajes, a que se dedican, que problema tienen con su pareja, que secretos ocultan de sus hijos, que envidias tienen con sus familiares (por poner solo un par de ejemplos). Imaginá que a veces hay mas de 20 personajes. Es muchísimo lo que se considera para armar una fábula interesante, llena de vínculos, tensiones y pasiones que dan riqueza al juego, y que van explicando quien mató a quien y por qué. ¿Fue planeado o un imprevisto para ocultar otra cosa?<br>\n<br>Los demás que estamos en la organización <b>no sabemos nada de nada</b>. Conocemos lo mismo que los invitados. Participamos en otras cosas del armado. Para eso es que nos dividimos en equipos internamente.<br>\n<br>Quienes están en <i>Team Cotillón</i>, por ejemplo, se encargan de todo lo que hace a la ambientación del lugar. Esto implica conseguir una casa o departamento que alguien ofrezca, o incluso ver de alquilar un lugar por un dia. Luego se piensa como es la historia, cual debería ser la ambientación, y, a partir de ahí, se define una paleta de colores, un estilo visual y se trabaja en investigar como crear esa decoración con elementos económicos. Muchas veces se piden utilerías prestadas a nuestras familias y a los mismos participantes, <i>¿Alguien tiene una daga antigua con un mensaje escrito por un vampiro hace 300 años?</i> Otras veces vamos a negocios de cotillón y compramos materiales: cartulinas, guirnaldas, papel crepé, utilerías de plástica, luces, globos, telgopores y mucho más.<br>\n<br>Comprar el cotillón no cierra el capítulo. Durante semanas y semanas quienes trabajan en eso deben coser, cortar, pegar, unir y armar cada elemento. Por ejemplo, en la fiesta Murder de 2024 (<i>La última noche de la fortuna Bellucci</i>) Pau y Martu hicieron chalecos salvavidas, flotadores, anclas, miradores, un altar y carteles publicitarios para crear “el barco” donde navegaba la familia más poderosa de Italia.<br>\n<br>A todo esto, se suman las tarjetas de personaje, que son cuidadosamente diseñadas para que cada participante conozca a quién debe personificar. Estas incluyen sugerencias sobre el vestuario, ideas para la interpretación y otros recursos útiles. Además, desarrollamos esta página web con el objetivo de crear imágenes ficcionales basadas en diversos imaginarios, que nos permiten transmitir el tono y el registro narrativo de la historia.<br>\n<br>Otros miembros del equipo se encargan de cocinar y/o gestionar la compra de comida para todos los participantes, y durante la fiesta están en el tema para que a nadie le falte cuchara, cucharita tenedor o algo de comer o tomar.<br>\n<br>El día de la Murder arrancamos muy temprano, colgamos decoraciones, movemos muebles, ambientamos, cocinamos, mandamos mensajitos, resolvemos dudas de vestuario, entramos en crisis por imprevistos de último momento, nos disfrazamos nosotros y se hizo la hora <b>¡A JUGAR SE HA DICHO!</b><br><br>Cerramos este escrito agradeciéndote por darnos tu atención un ratito. Hacemos estos eventos con mucha dedicación y siempre tratando de mejorar la fiesta anterior. Somos ni más ni menos que un grupo de amigos tratando de pasarla bien con algo que es un juego. Jugamos y te invitamos a jugar. Esperamos de todo corazón que te diviertas mucho.&nbsp;<b><br></b><br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"article12\" group=\"Article\">    \n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#232323\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4 mt-0\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\"><b>Cómo se arman:</b></h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">(No le pidas un resumen a la IA Rubén, dedicanos 3 minutos de lectura...)</h4>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-4\">Organizar estos eventos lleva mucho tiempo y trabajo. Se suelen planear con <b>meses </b>de antelación. Ninguno de los que participamos en el armado de las Murder Party ganamos dinero por hacerlo. <b>Nada, ni un peso</b>. Se hace con mucho entusiasmo, ganas de divertirnos y dedicación.<br>\n<br>Alguien propone una idea, inicialmente muy en borrador, y le vamos dando forma. <i>Una boda de alta sociedad, donde todos se odian, pero fingen.</i> A partir de esa idea inicial empezamos a tejer la narrativa. Una o dos personas del equipo se encargan de escribir la historia por completo y conocen el final, los asesinos y todo lo que sucede. Esta no es una tarea menor: escribir la historia implica todo… quienes son los personajes, a que se dedican, que problema tienen con su pareja, que secretos ocultan de sus hijos, que envidias tienen con sus familiares (por poner solo un par de ejemplos). Imaginá que a veces hay mas de 20 personajes. Es muchísimo lo que se considera para armar una fábula interesante, llena de vínculos, tensiones y pasiones que dan riqueza al juego, y que van explicando quien mató a quien y por qué. ¿Fue planeado o un imprevisto para ocultar otra cosa?<br>\n<br>Los demás que estamos en la organización <b>no sabemos nada de nada</b>. Conocemos lo mismo que los invitados. Participamos en otras cosas del armado. Para eso es que nos dividimos en equipos internamente.<br>\n<br>Quienes están en <i>Team Cotillón</i>, por ejemplo, se encargan de todo lo que hace a la ambientación del lugar. Esto implica conseguir una casa o departamento que alguien ofrezca, o incluso ver de alquilar un lugar por un dia. Luego se piensa como es la historia, cual debería ser la ambientación, y, a partir de ahí, se define una paleta de colores, un estilo visual y se trabaja en investigar como crear esa decoración con elementos económicos. Muchas veces se piden utilerías prestadas a nuestras familias y a los mismos participantes, <i>¿Alguien tiene una daga antigua con un mensaje escrito por un vampiro hace 300 años?</i> Otras veces vamos a negocios de cotillón y compramos materiales: cartulinas, guirnaldas, papel crepé, utilerías de plástica, luces, globos, telgopores y mucho más.<br>\n<br>Comprar el cotillón no cierra el capítulo. Durante semanas y semanas quienes trabajan en eso deben coser, cortar, pegar, unir y armar cada elemento. Por ejemplo, en la fiesta Murder de 2024 (<i>La última noche de la fortuna Bellucci</i>) Pau y Martu hicieron chalecos salvavidas, flotadores, anclas, miradores, un altar y carteles publicitarios para crear “el barco” donde navegaba la familia más poderosa de Italia.<br>\n<br>A todo esto, se suman las tarjetas de personaje, que son cuidadosamente diseñadas para que cada participante conozca a quién debe personificar. Estas incluyen sugerencias sobre el vestuario, ideas para la interpretación y otros recursos útiles. Además, desarrollamos esta página web con el objetivo de crear imágenes ficcionales basadas en diversos imaginarios, que nos permiten transmitir el tono y el registro narrativo de la historia.<br>\n<br>Otros miembros del equipo se encargan de cocinar y/o gestionar la compra de comida para todos los participantes, y durante la fiesta están en el tema para que a nadie le falte cuchara, cucharita tenedor o algo de comer o tomar.<br>\n<br>El día de la Murder arrancamos muy temprano, colgamos decoraciones, movemos muebles, ambientamos, cocinamos, mandamos mensajitos, resolvemos dudas de vestuario, entramos en crisis por imprevistos de último momento, nos disfrazamos nosotros y se hizo la hora <b>¡A JUGAR SE HA DICHO!</b><br><br>Cerramos este escrito agradeciéndote por darnos tu atención un ratito. Hacemos estos eventos con mucha dedicación y siempre tratando de mejorar la fiesta anterior. Somos ni más ni menos que un grupo de amigos tratando de pasarla bien con algo que es un juego. Jugamos y te invitamos a jugar. Esperamos de todo corazón que te diviertas mucho.&nbsp;<b><br></b><br></p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "article12-16",
           "_isUserblock": true,
           "_cid": "v1Di9YefGK",
