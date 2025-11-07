@@ -10,7 +10,8 @@ img,
 .slide-content,
 .plan,
 .card,
-.item-wrapper {
+.item-wrapper,
+.item-wrapper .mbr-overlay {
   border-radius: 2rem !important;
 }
 .video-wrapper {
@@ -950,8 +951,8 @@ a {
   border-radius: 1.5rem;
   transition: 0.3s all !important;
   min-width: auto;
-  background: #232323;
-  background: rgba(35, 35, 35, 0.8) !important;
+  background: #152a1f;
+  background: rgba(21, 42, 31, 0.8) !important;
 }
 .cid-v1AYTOI1tU .nav-item:focus,
 .cid-v1AYTOI1tU .nav-link:focus {
@@ -1108,7 +1109,7 @@ a {
   padding: 0.667em 1.667em;
 }
 .cid-v1AYTOI1tU .navbar.navbar-expand-lg .dropdown .dropdown-menu {
-  background: #232323;
+  background: #152a1f;
 }
 .cid-v1AYTOI1tU .navbar.navbar-expand-lg .dropdown .dropdown-menu .dropdown-submenu {
   margin: 0;
@@ -1188,10 +1189,10 @@ a {
 }
 .cid-v1AYTOI1tU .navbar-dropdown {
   padding: 0;
-  background: rgba(35, 35, 35, 0.8) !important;
+  background: rgba(21, 42, 31, 0.8) !important;
 }
 .cid-v1AYTOI1tU .opacityScroll {
-  background: #232323 !important;
+  background: #152a1f !important;
 }
 .cid-v1AYTOI1tU a.nav-link {
   display: flex;
@@ -1276,10 +1277,10 @@ a {
     width: 100%;
     padding: 1rem;
     border-radius: 1.5rem;
-    background: #232323;
+    background: #152a1f;
     opacity: 1;
-    border-color: rgba(35, 35, 35, 0.8) !important;
-    background: rgba(35, 35, 35, 0.8) !important;
+    border-color: rgba(21, 42, 31, 0.8) !important;
+    background: rgba(21, 42, 31, 0.8) !important;
     backdrop-filter: blur(8px);
   }
   .cid-v1AYTOI1tU .navbar-nav .nav-item .nav-link::after {
@@ -1887,8 +1888,8 @@ a {
   border-radius: 1.5rem;
   transition: 0.3s all !important;
   min-width: auto;
-  background: #232323;
-  background: rgba(35, 35, 35, 0.8) !important;
+  background: #152a1f;
+  background: rgba(21, 42, 31, 0.8) !important;
 }
 .cid-v1AYTOI1tU .nav-item:focus,
 .cid-v1AYTOI1tU .nav-link:focus {
@@ -2045,7 +2046,7 @@ a {
   padding: 0.667em 1.667em;
 }
 .cid-v1AYTOI1tU .navbar.navbar-expand-lg .dropdown .dropdown-menu {
-  background: #232323;
+  background: #152a1f;
 }
 .cid-v1AYTOI1tU .navbar.navbar-expand-lg .dropdown .dropdown-menu .dropdown-submenu {
   margin: 0;
@@ -2125,10 +2126,10 @@ a {
 }
 .cid-v1AYTOI1tU .navbar-dropdown {
   padding: 0;
-  background: rgba(35, 35, 35, 0.8) !important;
+  background: rgba(21, 42, 31, 0.8) !important;
 }
 .cid-v1AYTOI1tU .opacityScroll {
-  background: #232323 !important;
+  background: #152a1f !important;
 }
 .cid-v1AYTOI1tU a.nav-link {
   display: flex;
@@ -2213,10 +2214,10 @@ a {
     width: 100%;
     padding: 1rem;
     border-radius: 1.5rem;
-    background: #232323;
+    background: #152a1f;
     opacity: 1;
-    border-color: rgba(35, 35, 35, 0.8) !important;
-    background: rgba(35, 35, 35, 0.8) !important;
+    border-color: rgba(21, 42, 31, 0.8) !important;
+    background: rgba(21, 42, 31, 0.8) !important;
     backdrop-filter: blur(8px);
   }
   .cid-v1AYTOI1tU .navbar-nav .nav-item .nav-link::after {
@@ -2610,8 +2611,8 @@ a {
   border-radius: 1.5rem;
   transition: 0.3s all !important;
   min-width: auto;
-  background: #232323;
-  background: rgba(35, 35, 35, 0.8) !important;
+  background: #152a1f;
+  background: rgba(21, 42, 31, 0.8) !important;
 }
 .cid-v1M7IPtVMV .nav-item:focus,
 .cid-v1M7IPtVMV .nav-link:focus {
@@ -2768,7 +2769,7 @@ a {
   padding: 0.667em 1.667em;
 }
 .cid-v1M7IPtVMV .navbar.navbar-expand-lg .dropdown .dropdown-menu {
-  background: #232323;
+  background: #152a1f;
 }
 .cid-v1M7IPtVMV .navbar.navbar-expand-lg .dropdown .dropdown-menu .dropdown-submenu {
   margin: 0;
@@ -2848,10 +2849,10 @@ a {
 }
 .cid-v1M7IPtVMV .navbar-dropdown {
   padding: 0;
-  background: rgba(35, 35, 35, 0.8) !important;
+  background: rgba(21, 42, 31, 0.8) !important;
 }
 .cid-v1M7IPtVMV .opacityScroll {
-  background: #232323 !important;
+  background: #152a1f !important;
 }
 .cid-v1M7IPtVMV a.nav-link {
   display: flex;
@@ -2936,10 +2937,10 @@ a {
     width: 100%;
     padding: 1rem;
     border-radius: 1.5rem;
-    background: #232323;
+    background: #152a1f;
     opacity: 1;
-    border-color: rgba(35, 35, 35, 0.8) !important;
-    background: rgba(35, 35, 35, 0.8) !important;
+    border-color: rgba(21, 42, 31, 0.8) !important;
+    background: rgba(21, 42, 31, 0.8) !important;
     backdrop-filter: blur(8px);
   }
   .cid-v1M7IPtVMV .navbar-nav .nav-item .nav-link::after {
