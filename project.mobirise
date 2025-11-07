@@ -61,7 +61,7 @@
     "imageResize": false,
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/wallpaper-128x88.png",
-    "mbrsiteDomain": "iwxfgyjlvb",
+    "mbrsiteDomain": "oxhsfkf6nz",
     "usedWebp": false,
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
@@ -73,7 +73,9 @@
     "witsec-search": false,
     "witsec-white-label": true,
     "witsec-mailform": false,
-    "site_lang": "es"
+    "site_lang": "es",
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
