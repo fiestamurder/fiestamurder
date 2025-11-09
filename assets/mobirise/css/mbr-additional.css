@@ -3724,6 +3724,35 @@ a {
 .cid-v1ShEvTcYo .mbr-section-btn {
   color: #edefeb;
 }
+.cid-v250GBmzEj {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #ffffff;
+}
+.cid-v250GBmzEj .counter-container ul {
+  margin: 0;
+  padding-left: 2.25rem;
+  list-style: none;
+}
+.cid-v250GBmzEj .counter-container ul li {
+  position: relative;
+  list-style: none;
+  margin-bottom: 2rem;
+}
+.cid-v250GBmzEj .counter-container ul li:before {
+  position: absolute;
+  left: -1.5em;
+  content: "";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #9fe870;
+  background-color: #9fe870;
+  width: 0.5em;
+  height: 0.5em;
+  top: 0.4em;
+  border-radius: 50%;
+}
 .cid-v1SedBIzAx {
   padding-top: 8rem;
   padding-bottom: 8rem;
