@@ -73,7 +73,9 @@
     "witsec-search": false,
     "witsec-white-label": true,
     "witsec-mailform": false,
-    "site_lang": "es"
+    "site_lang": "es",
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
